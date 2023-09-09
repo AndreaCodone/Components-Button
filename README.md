@@ -1,8 +1,10 @@
-# React + Vite
+# Challenge #17 - Componenti: Button
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In questa challenge l'obiettivo è creare un componente Button con diverse customizzazioni. In particolare, dovrai gestire:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+testo custom
+grandezza: small, normal, medium, large
+bordi: squadrati, arrotondati
+stato: disabled, loading
+colori: primary, info, link, success, warning, danger
+icone: icona a destra, sinistra o centrale (senza testo)
