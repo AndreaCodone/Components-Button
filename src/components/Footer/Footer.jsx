@@ -7,12 +7,15 @@ function Footer() {
   return (
     <footer>
       <div>
+        {new Date().getFullYear()}
         <p>Challenge #17 - Componenti: Button</p>
         <p>Sviluppato per Frontenders</p>
-      </div>
-      <div className={styles.icons}>
-        <a href="#">{<TiSocialLinkedin />}</a>
-        <a href="#">{<AiFillGithub />}</a>
+        <a href="http://linkedin.com/in/andrea-coda">
+          {<TiSocialLinkedin className={styles.linkedin} />}
+        </a>
+        <a href="https://github.com/AndreaCodone">
+          {<AiFillGithub className={styles.github} />}
+        </a>
       </div>
       {/* <p>&copy; {new Date().getFullYear()} Andrea Coda</p> */}
     </footer>
