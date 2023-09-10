@@ -4,7 +4,7 @@ footer {
   left: 0;
   right: 0;
   margin: 8px;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -13,4 +13,16 @@ footer {
   border-radius: 8px;
   background: #e8e8e8;
   box-shadow: 20px 20px 60px #bebebe, -10px -20px -10px #ffffff;
+}
+
+p {
+  font-size: 12px;
+}
+
+.linkedin {
+  width: 30px;
+}
+
+.github {
+  width: 30px;
 }
